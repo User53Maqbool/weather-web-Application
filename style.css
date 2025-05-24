@@ -1,0 +1,69 @@
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #2c2c2c;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 26%;
+        }
+
+        .card {
+            background-color: #000;
+            color: #fff;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 5px 5px 10px rgba(219, 198, 201, 0.2);
+            border: 1px solid rgb(46, 45, 45);
+            width: 200px;
+            text-align: center;
+        }
+
+        .card h4 {
+            font-size: 4rem;
+            font-weight: 400;
+            margin: 1rem 0;
+        }
+
+        #icon {
+            width: 20%;
+        }
+
+        #weather {
+            text-transform: capitalize;
+        }
+
+        button {
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+        .temp {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        button.refresh {
+            display: block;
+            width: 100px;
+            margin: 10px auto;
+            background: transparent;
+            border: 0;
+            color: #9c9c9d;
+            font-size: 30px;
+            height: 100px;
+            border-radius: 50%;
+            box-shadow: 10px 4px 10px #252525, inset 5px 5px 18px #4a4a4a;
+        }
+
+        button.refresh:hover {
+            box-shadow: inset 10px 4px 10px #252525, inset 5px 5px 18px #4a4a4a;
+        }
